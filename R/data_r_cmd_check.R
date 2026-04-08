@@ -18,6 +18,7 @@ impl_data(
     rcmdcheck::rcmdcheck(
       resource@path,
       error_on = "never",
+      args = "--no-manual",
       build_args = "--no-manual"
     )
   }
